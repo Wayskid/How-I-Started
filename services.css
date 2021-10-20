@@ -1,0 +1,194 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+    background-image: url(bkgimg2.jpg);
+    background-size: cover;
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
+    border: none;
+}
+ul{
+    list-style: none;
+}
+
+
+nav{
+    padding-bottom: 100px;
+}
+
+nav h1{
+    float: left;
+    padding-top: 80px;
+    margin-bottom: 30px;
+}
+
+
+
+nav h1 a{
+    background-color: red;
+    font-family:  Arial, Helvetica, sans-serif;
+    font-size: 35pt;
+    padding: 80px 70px 50px 70px;
+}
+
+
+nav ul{
+    color: white;
+    float: right;
+    padding-top: 50px;
+}
+
+nav ul li{
+    float: left;
+    font-size: 16pt;
+    margin-right: 30px;
+}
+
+nav ul li a:hover,
+.current{
+    color: red;
+}
+
+.activehome:active{
+    color: red;
+}
+
+/* SERVICES PAGE STYING */
+
+section{
+    margin-top: 200px;
+    clear: both;
+}
+
+
+#servicewriteup{
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    width: 40%;
+    margin-left: 50px;
+}
+
+#servicewriteup h1{
+    font-size: 35pt;
+    margin-bottom: 50px;
+}
+
+#servicewriteup p{
+    font-size: 18pt;
+    margin-bottom: 50px;
+    line-height: 1.4em;
+}
+
+form{
+    background-color: red;
+    font-family: cursive;
+    float: right;
+    width: 40%;
+    margin-right: 50px;
+}
+
+form input, form select{
+    font-size: 20pt;
+    text-align: center;
+}
+
+.serviceformwrapper{
+    margin-left: 30px;
+}
+
+.firstfivelabel{
+    display: block;
+    font-size: 20pt;
+    margin-bottom: 2px;
+    margin-top: 20px;
+}
+
+
+.firstfiveinput{
+    padding: 12px 30px;
+    border: none;
+    background: #fff;
+}
+
+#zipcode{
+    padding-right: 7px;
+}
+
+.lasttwo{
+    font-size: 15pt;
+    margin-bottom: 1px;
+    margin-top: 20px;
+}
+
+form option{
+    font-size: 20pt;
+}
+
+#email{
+    text-align: center;
+    padding: 12px 10px;
+    border: none;
+}
+
+
+form button{
+    height: 40px;
+    width: 150px;
+    margin: 20px 0 20px 0;
+}
+
+form button a{
+    color: red;
+    font-size: 18pt;
+}
+
+.checkmark{
+    background-color: blue;
+}
+
+/* FOOTER DESIGN BEGINS */
+footer{
+    clear: both;
+    margin-top: 350px;
+}
+
+.footerwriteups{
+    float: right;
+    margin-right: 200px;
+}
+
+#footerlogo a{
+    font-size: 50pt;
+    color: red;
+}
+
+
+
+footer li a{
+    line-height: 1.7em;
+    font-size: 12pt;
+}
+
+footer li a:hover{
+    color: grey;
+}
+#footerlogo a:hover{
+    color: darkred;
+}
+
+footer p{
+    clear: both;
+    text-align: right;
+    font-size: 15pt;
+}

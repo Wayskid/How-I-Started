@@ -1,0 +1,100 @@
+
+/* NAV */
+
+nav h1{
+    float: none;
+    text-align: center;
+    padding-top: 60px;
+}
+
+nav h1 a{
+    background-color: red;
+    font-family:  Arial, Helvetica, sans-serif;
+    font-size: 18pt;
+    padding: 60px 50px 30px 50px;
+    margin-left: auto;
+}
+
+
+
+nav ul{
+    float: none;
+}
+
+nav ul li{
+    float: none;
+    text-align: center;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+/* HOME SECTION */
+
+section{
+    margin-top: 10px;
+}
+
+
+.showcase h1{
+    font-size: 68pt;
+    font-family: 'Oswald','Helvetica Neue','Segoe UI',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
+    margin-bottom: 20px;
+}
+
+
+.showcase h3{
+    font-size: 14pt;
+    margin-bottom: 20px;
+}
+
+#purchase button{
+    margin-left: 0;
+}
+
+.centrebutton{
+    display: block;
+    margin-bottom: 5px;
+}
+
+#explore a, #purchase a{
+    font-size: 18pt;
+}
+
+.writeuphome{
+    text-align: center;
+    margin: 100px 10px 0 5px;
+}
+
+.writeuphome p{
+    font-weight: 500;
+    font-size: 14pt;
+    line-height: 1.4em;
+}
+
+/* FOOTER */
+
+footer{
+    margin-top: 200px;
+}
+
+#footerlogo a{
+    font-size: 30pt;
+}
+
+#footerlogo h1{
+    text-align: center;
+}
+
+footer li{
+    font-size: 14pt;
+    text-align: center;
+}
+
+.footerwriteups{
+    float: none;
+    margin-right: 0px;
+}
+
+
+
+

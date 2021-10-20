@@ -1,0 +1,185 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+    background-image: url(bkgimg2.jpg);
+    background-size: cover;
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
+    border: none;
+}
+ul{
+    list-style: none;
+}
+
+
+nav{
+    padding-bottom: 100px;
+}
+
+nav h1{
+    float: left;
+    padding-top: 80px;
+    margin-bottom: 30px;
+}
+
+
+
+nav h1 a{
+    background-color: red;
+    font-family:  Arial, Helvetica, sans-serif;
+    font-size: 35pt;
+    padding: 80px 70px 50px 70px;
+    margin-left: 20px;
+}
+
+
+nav ul{
+    color: white;
+    float: right;
+    padding-top: 50px;
+}
+
+nav ul li{
+    float: left;
+    font-size: 16pt;
+    margin-right: 30px;
+}
+
+nav ul li a:hover,
+.current{
+    color: red;
+}
+
+.activehome:active{
+    color: red;
+}
+
+/* HOME PAGE STYING */
+
+section{
+    margin-top: 200px;
+    clear: both;
+}
+
+.showcase{
+    text-align: center;
+    line-height: 3.2em;
+}
+
+.showcase h1{
+    font-size: 85pt;
+    font-family: 'Oswald','Helvetica Neue','Segoe UI',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
+    margin-bottom: 40px;
+}
+
+.showcase h3{
+    font-size: 25pt;
+    font-family: 'Oswald','Helvetica Neue','Segoe UI',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
+    margin-bottom: 30px;
+}
+
+.showcasebutton{
+    text-align: center;
+}
+
+.centrebutton{
+    display: inline-block;
+}
+
+
+#purchase button{
+    background-color: white;
+    border: none;
+    margin-left: 30px;
+}
+#explore button{
+    background-color: red;
+    border: none;
+}
+
+
+
+#purchase a{
+    font-size: 25pt;
+    font-family: 'Oswald','Helvetica Neue','Segoe UI',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
+    border: none;
+    margin-left: 10px;
+    color: black;
+    font-weight: 500;
+    padding: 10px 8px;
+}
+
+#explore a{
+    font-size: 25pt;
+    font-family: 'Oswald','Helvetica Neue','Segoe UI',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
+    border: none;
+    color: white;
+    font-weight: 500;
+    padding: 10px 8px;
+}
+
+#purchase button:hover{
+    background-color: grey;
+}
+#explore button:hover{
+    background-color: darkred;
+}
+
+.writeuphome{
+    text-align: center;
+    margin: 300px 100px 0 150px;
+}
+
+.writeuphome p{
+    font-weight: 500;
+    font-size: 20pt;
+    line-height: 1.4em;
+}
+
+/* FOOTER DESIGN BEGINS */
+
+footer{
+    clear: both;
+    margin-top: 350px;
+}
+
+.footerwriteups{
+    float: right;
+    margin-right: 200px;
+}
+
+#footerlogo a{
+    font-size: 50pt;
+    color: red;
+}
+
+
+
+footer li a{
+    line-height: 1.7em;
+    font-size: 12pt;
+}
+
+footer li a:hover{
+    color: grey;
+}
+#footerlogo a:hover{
+    color: darkred;
+}
+
+footer p{
+    clear: both;
+    text-align: right;
+    font-size: 15pt;
+}

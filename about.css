@@ -1,0 +1,173 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+    background-image: url(bkgimg2.jpg);
+    background-size: cover;
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
+    border: none;
+}
+ul{
+    list-style: none;
+}
+
+
+nav{
+    padding-bottom: 100px;
+}
+
+nav h1{
+    float: left;
+    padding-top: 80px;
+    margin-bottom: 30px;
+}
+
+
+
+nav h1 a{
+    background-color: red;
+    font-family:  Arial, Helvetica, sans-serif;
+    font-size: 35pt;
+    padding: 80px 70px 50px 70px;
+}
+
+
+nav ul{
+    color: white;
+    float: right;
+    padding-top: 50px;
+}
+
+nav ul li{
+    float: left;
+    font-size: 16pt;
+    margin-right: 30px;
+}
+
+nav ul li a:hover,
+.current{
+    color: red;
+}
+
+.activehome:active{
+    color: red;
+}
+
+/* ABOUT PAGE STYING */
+
+section{
+    margin-top: 200px;
+    clear: both;
+}
+
+.showcase{
+    padding-top: 250px;
+    padding-left: 40px;
+    float: left;
+    width: 50%;
+    min-height: 100%;
+}
+.showcase h1{
+    font-size: 50pt;
+    padding-bottom: 40px;
+}
+
+.showcase p{
+    font-size: 20pt;
+    line-height: 1.3em;
+}
+
+
+aside{
+    float: right;
+    width: 20%;
+    min-height: 100%;
+    background-color: red;
+    margin-top: 250px;
+    margin-right: 200px;
+}
+
+.asidewrapper{
+    margin: 0 0 200px 20px;
+    padding: 30px 0 0 0;
+}
+
+aside h1{
+    font-size: 40pt;
+    font-family: cursive;
+}
+
+aside p{
+font-size: 18pt;
+line-height: 1.2em;
+margin-top: 10px;
+font-family: cursive;
+}
+
+form{
+    margin-top: 45px;
+}
+
+form input{
+    height: 40px;
+    width: 250px;
+    font-size: 16pt;
+}
+
+form button{
+    height: 40px;
+    width: 150px;
+}
+
+form a{
+    color: red;
+    font-size: 18pt;
+}
+
+/* FOOTER DESIGN BEGINS */
+
+footer{
+    clear: both;
+    margin-top: 350px;
+}
+
+.footerwriteups{
+    float: right;
+    margin-right: 200px;
+}
+
+#footerlogo a{
+    font-size: 50pt;
+    color: red;
+}
+
+
+
+footer li a{
+    line-height: 1.7em;
+    font-size: 12pt;
+}
+
+footer li a:hover{
+    color: grey;
+}
+#footerlogo a:hover{
+    color: darkred;
+}
+
+footer p{
+    clear: both;
+    text-align: right;
+    font-size: 15pt;
+}
